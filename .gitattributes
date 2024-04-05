@@ -1,2 +1,118 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Red Planet Ventures</title>
+<meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap,
+Template">
+<meta name="author" content="Boinelo Joshua, Mabela, 241121">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,
+ 500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+ <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pages/flights.html">Flights</a></li>
+    <li><a href="pages/contacts.html">Contact Us</a></li>
+    </ul>
+ </nav>
+
+ <header>
+  <img src="../Assets/Images/homePageHeader.png" width="100%">
+  <h1><strong>Red Planet Ventures</strong></h1>
+ </header>
+ <section class="localFont">
+   <p>Red Planet Ventures</p>
+ </section>
+
+ <section class="backgroundImage">
+   <p>Explore The Solar System</p>
+   <p>Red Planet Ventures</p>
+ </section>
+
+ <section>
+  <div class="flexContainer">
+    <div class="flexItem1"><h1>Explore The Solar System</h1></div>
+   </div>
+   <section class="flexContainer">
+   <div class="flexItem2"><img src="../Assets/Images/marsSliderClipped1.png"></div>
+    <div class="flexItem2"> <h4>Featured Trip</h4>
+    <h3>Classic Mars Experience</h3>
+    <p>Embark on a Mars vacation: red desserts, ancient relics, and towering canyons await.
+   Enjoy low-gravity hiking, rover trips to Olympus Mons, and stargazing under Phobos and Deimos.
+    Unforgettable adventures beckon on the rust-colored landscapes of the Red Planet.
+    </p></div>
+ </section>
+ <section>
+  </div>
+  <form id="BookNow">
+   <fieldset>
+    <img src="../Assets/Images/spacSchuttles.png" width="30%">
+    <button type="button" onclick="location.href='pages/about.html';">Book Now</button>
+    <h4>Our Shuttles</h4>
+    <h3>Travel With A Variety Of Shuttles</h3>
+    <p>Select from our range of luxury, commercial, or budget shuttles to fulfill your dream space
+      vacation.Experience unparalleled comfort and convenience as you journey to your planet of choice,
+      ensuring an unforgettable and tailored experience for every traveller.
+    </p>
+   </fieldset>
+    <h4>Upcoming Trip Sneak Peak</h4>
+    <h3>Take A Look At Our Upcoming Trips</h3>
+    
+  </div>  
+ </section>
+
+ <section>
+  <div class="flexContainer">
+   <div class="flexItem3"><img src="../Assets/Images/upcomingTrip1.png"> </div>
+   <h3>The Classic Mars Experience</h3>
+   <p>Explore red desserts, ancient relics, low-gravity adventures on Mars.</p>
+   <div class="flexItem3"><img src="../Assets/Images/upcomingTrip2.png"> </div>
+   <h3>Neptune's Cosmic Dive</h3>
+   <p>Experience Neptune's mysterious depths in a celestial voyage.</p>
+   <div class="flexItem3"><img src="../Assets/Images/upcomingTrip2.png"> </div>
+   <h3>Jupiter: The Giant's Journey</h3>
+   <p>Embark on Jupiter and witness the gas giant's majesty.</p>
+   <div class="flexItem3"><img src="../Assets/Images/upcomingTrip3.png"> </div>
+  </div>
+   <h3>Ring a Round a Saturn</h3>
+   <p>Explore Saturn's rings, moons, and enigmatic beauty on an odyssey</p>
+   <form id="BookATripNow">
+    <fieldset>
+   <button type="button" onclick="location.href='pages/about.html';">Book a Trip Now</button>
+  </form>
+</fieldset>
+ </section>
+</form>
+  
+ <footer>
+   <img src="../Assets/Images/logo.png" width="20%">
+   <p>Offering unforgettable trips to explore planets in our solar system.</p>
+
+   <h3>Social Media Links</h3>
+   <img src="../Assets/Images/smX.png" width="5%">
+   <img src="../Assets/Images/smTicktock.png" width="5%">
+   <img src="../Assets/Images/smInstagram.png" width="5%">
+   <img src="../Assets/Images/smFacebook.png" width="5%">
+
+   <p><i>All Rights Reserved @ Open Window 2024</i></p>
+   <P><i>Terms & Conditions</i></P>
+   <P><i>Privacy & Policy</i></P>
+
+   <h3>Company</h3>
+   <p>Home</p><p>Flights</p><p>Contact Us</p>
+  </footer>
+
+</body>
+</html>
